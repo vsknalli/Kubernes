@@ -1,0 +1,6 @@
+- hosts: all
+  become: True
+  taks:
+    name: "Tesing for installing package"
+    yum:
+
